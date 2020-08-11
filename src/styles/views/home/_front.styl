@@ -12,6 +12,9 @@
             padding: 0
             letter-spacing: -3px
             align-items: flex-start
+            line-height: 0.8;
+            text-align: center;
+            padding-bottom: 0.25em;
             +min(1)
                 font-size: 7.4rem
                 letter-spacing: -5px
@@ -44,6 +47,10 @@
                 small
                     color: #999;
                     font-size: 46%
+                    display: inline-block;
+                    padding-top: 1.3em;
+                    line-height: 1.3em;
+
             div
                 display: flex
                 flex-flow: row wrap
@@ -58,11 +65,8 @@
                     +min(1)
                         min-width: auto
                         font-size: 1.2rem
-                        margin: 0
+                        margin: rem(7px)
                         padding: rem(16px) rem(35px)
-                        margin-right: rem(14px)
-                        &:last-of-type
-                            margin-right: 0
                     +min(2)
                         font-size: 1.25rem
                         padding: rem(17px) rem(36px)
