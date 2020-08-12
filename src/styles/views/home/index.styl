@@ -1,7 +1,11 @@
 // generic
 .home
     .canvas
-        min-height: 100vh
+        min-height: "calc(100vh - %s)" %header_height
+        +min(1)
+            min-height: "calc(100vh - %s)" %header_height_b1
+        +min(2)
+            min-height: "calc(100vh - %s)" %header_height_b2
         &:not(.front) .content
             padding: 100px 20px 70px
             +min(1)
