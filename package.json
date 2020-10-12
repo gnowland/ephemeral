@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@example.com:user/repository.git"
+    "url": "git@github.com:gnowland/ephemeral.git"
   },
   "private": true,
   "license": "UNLICENSED",
-  "homepage": "http://example.com",
-  "author": "Name <you@example.com>",
-  "description": "Project description.",
+  "homepage": "https://giffordnowland.com",
+  "author": "Gifford Nowland <hi@giffordnowland.com>",
+  "description": "Personal landing page.",
   "config": {
     "host": "0.0.0.0",
     "port": 3003,
